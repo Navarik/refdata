@@ -4,7 +4,7 @@ Generic reference data service
 ## Runnig as a docker container
 1. Clone this repository:
 ```
-git clone git@github.com:Navarik/refdata.git
+git clone git@github.com:TICitHub/refdata.git
 ```
 2. Clone your reference data repository or get the reference data objects from some other location on the file system:
 ```
