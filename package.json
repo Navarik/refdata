@@ -1,6 +1,6 @@
 {
-  "name": "refdata",
-  "version": "1.0.0",
+  "name": "ticithub-refdata-api",
+  "version": "1.0.1",
   "description": "Reference Data API",
   "private": true,
   "main": "dist/app.js",
@@ -14,8 +14,8 @@
     "url": "git@github.com:Navarik/refdata.git"
   },
   "dependencies": {
-    "@navarik/storage": "^6.1.0",
-    "@navarik/storage-filesystem-changelog": "^2.1.3",
+    "refdata-storage": "^6.1.0",
+    "refdata-storage-filesystem-changelog": "^2.1.3",
     "babel-polyfill": "^6.26.0",
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
