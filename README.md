@@ -8,9 +8,9 @@ git clone git@github.com:Navarik/refdata.git
 ```
 2. Clone your reference data repository or get the reference data objects from some other location on the file system:
 ```
-git clone git@github.com:Navarik/reference-data-objects.git
+git clone https://github.com/TICitHub/reference-data-objects.git
 or
-cp -r /mnt/shared/reference-data-objects reference-data-objects
+cp -r /mnt/shared/reference-data-objects reference-data
 ```
 3. Copy reference data into the working directory:
 ```
@@ -25,11 +25,11 @@ docker build .
 ## Runnig in development (standalone) mode
 1. Clone this repository:
 ```
-git clone git@github.com:Navarik/refdata.git
+git clone https://github.com/TICitHub/refdata.git
 ```
 2. Clone your reference data repository or get the reference data objects from some other location on the file system:
 ```
-git clone git@github.com:Navarik/reference-data-objects.git
+git clone https://github.com/TICitHub/reference-data-objects.git
 or
 cp -r /mnt/shared/reference-data-objects reference-data-objects
 ```
