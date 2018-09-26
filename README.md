@@ -1,6 +1,15 @@
 # Refdata
 Generic reference data service
 
+## Introduction
+
+Reference data is required where multiple systems are required to work together and automation or reporting is required. E.g. System A needs to send System B a request for services and expects a price in return. System B's API has a specific set of services available but unless System A can access the list through the API, it cannot request anything. Additionally System A may have it's own list representing these services and may request them from multiple APIs depending on which is cheapest. Mapping all the different lists together is pointless effort for the developer or System A. 
+
+Object Orientated design leads to a situation where different systems usually model the same things over and again. It would be much simpler to use a central repository that all systems can agree to use. We have a traditional name for this, they are called Standards. The process of agreeing on and maintaining standards is needed, but until that open system is available we have create a few services that allow datasets to be shared between systems and persisted in git. 
+
+Why Git for storage? Reference Data will change over time and multiple systems will have slight differences in their datasets. Git is the only tool able to provide the features required to manage the data between systems while still allowing the systems to evolve over time.
+
+
 ## Runnig as a docker container
 1. Clone this repository:
 ```
