@@ -29,3 +29,6 @@ buck-out/
 # Triton _env file
 #
 _env
+
+#dist
+dist/
